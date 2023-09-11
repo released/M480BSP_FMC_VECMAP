@@ -21,7 +21,13 @@ Below is BANK2 KEIL linker setting and sct file
 
 ![image](https://github.com/released/M480BSP_FMC_VECMAP/blob/main/ICP_Config.jpg)
 
-4. below is log file , 
+4. use terminal digit 1 , to jump to another vector
+
+- if under vector : 0x00 , will jump to vector : 0x40000
+
+- if under vector : 0x40000 , will jump to vector : 0x00
+
+5. below is log file , 
 
 BANK1
 
@@ -31,7 +37,7 @@ BANK2
 
 ![image](https://github.com/released/M480BSP_FMC_VECMAP/blob/main/bank2.jpg)
 
-5. Below is BANK1 map file , to locate vector address
+6. Below is BANK1 map file , to locate vector address
 
 ![image](https://github.com/released/M480BSP_FMC_VECMAP/blob/main/map_file_BANK1.jpg)
 
